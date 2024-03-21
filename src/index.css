@@ -1,13 +1,127 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.black-button {
+  background-color: rgba(0, 0, 0, 0.719);
+  color: whitesmoke;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.blue-button {
+  font-size: small;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 5px;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.icon {
+  width: 20%;
+  margin: 0;
+  height: 45px;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+summary {
+  color: whitesmoke;
+  font-weight: 300;
+  list-style: none;
+}
+
+
+/* ///////////// For MAin title //////////// */
+
+.main-title {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  width: auto;
+  height: 50px;
+}
+
+.main-title h4 {
+  font-size: medium;
+  padding: 0;
+}
+
+/* //////////// for icons overlay/////////////// */
+.theme {
+  cursor: pointer;
+  width: 5%;
+  height: 5%;
+  background-color: rgba(192, 179, 179, 0.733);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+}
+
+/* /////////////////////////////////////////// */
+
+
+
+/* ////////////////Footer///////////////// */
+
+footer {
+  background-color: rgb(245, 240, 240);
+  padding: 1%;
+  text-align: center;
+  font-weight: 300;
+}
+
+.app-footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 100;
+}
+
+.app-footer-icons img {
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+
+.footer-icon {
+  width: 75%;
+}
+
+.icon-overlay {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(2, 21, 167, 0.733);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+/* /////////////////////////////////// */
+
+
+@media (max-width: 767px) {
+  .blue-button {
+    width: 95%;
+    align-items: center;
+  }
+
+  .icon-overlay {
+    width: 40px;
+    height: 40px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .theme {
+    width: 8%;
+  }
+
 }

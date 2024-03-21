@@ -1,0 +1,54 @@
+.fifth {
+    background-color: rgba(0, 0, 255, 0.484);
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+    height: fit-content;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 4%;
+    padding: 2%;
+}
+
+/* //////////// Content Detials///////// */
+
+.fifth div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 45%;
+    padding: 1%;
+    /* background-color: greenyellow; */
+}
+
+
+.fifth h3 {
+    color: whitesmoke;
+}
+
+
+.fifth button {
+  margin-top: 4%;
+}
+
+.fifth img {
+    width: 50%;
+    height: 70%;
+}
+
+@media (max-width:815px) {
+    .fifth {
+        flex-direction: column;
+    }
+
+    .fifth div,
+    .fifth img {
+        width: 95%;
+    }
+
+    .fifth button {
+        font-size: large;
+    }
+}

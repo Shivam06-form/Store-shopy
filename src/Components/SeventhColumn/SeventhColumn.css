@@ -1,0 +1,149 @@
+ .seven {
+     display: flex;
+     margin-top: 10%;
+     padding: 2%;
+     border-top: groove;
+     justify-content: space-between;
+     gap: 4%
+ }
+
+ .seven-content {
+     width: 70%;
+     display: flex;
+     flex-direction: column;
+     gap: 10px
+ }
+
+ .seven summary {
+     font-weight: 400;
+ }
+
+ .seven summary,
+ .seven s {
+     color: rgb(199, 187, 187);
+ }
+
+
+ .seven s {
+     text-decoration: none;
+     font-weight: 700;
+     margin: none;
+     padding: none;
+     font-size: smaller;
+ }
+
+
+
+ /* ////////////////Social Icons Container /////////////// */
+
+ .social-icon {
+     display: flex;
+     width: 70%;
+     justify-content: space-between;
+ }
+
+
+
+ /* /////////////////////////////// */
+
+
+ /* //////////LIST STYLE/////////////// */
+
+ .list {
+     width: 50%;
+ }
+
+ .list-container {
+     display: flex;
+     width: 100%;
+ }
+
+ .list-item {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 8%;
+     font-weight: 600;
+ }
+
+ .list-item ul {
+     display: flex;
+     flex-direction: column;
+     gap: 25px
+ }
+
+ .list-item h4 {
+     font-size: large;
+ }
+
+ .list-item li {
+     list-style: none;
+ }
+
+ .list-item li a {
+     color: gray;
+     text-decoration: none;
+ }
+
+
+ .list-item li a:hover {
+     text-decoration: underline;
+ }
+
+ .list-title {
+     color: blue;
+ }
+
+ /* ///////////////////////////////////// */
+
+
+
+ /* ///////////EMAIL////////////////////// */
+ .email {
+     border-style: groove;
+     display: flex;
+     padding: 0px 3% 0px 3%;
+     border-radius: 5px;
+     margin-bottom: 10%;
+ }
+
+
+ .email input {
+     outline: none;
+     border: none;
+     background-color: transparent;
+     width: 90%;
+ }
+
+ /* ////////////////////////////////////////// */
+
+ @media (max-width:790px) {
+     .social-icon {
+         width: 95%;
+     }
+
+     .list-container {
+         flex-direction: column;
+         gap: 20px
+     }
+ }
+
+ @media (max-width:990px) {
+     .seven {
+         flex-direction: column;
+     }
+
+     .list {
+         width: 100%;
+     }
+     
+
+     .list-container {
+         width: 100%;
+     }
+
+     .seven-content {
+         width: 95%;
+         margin-bottom: 5%;
+     }
+ }
