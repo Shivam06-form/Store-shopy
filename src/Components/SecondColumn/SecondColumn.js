@@ -19,7 +19,7 @@ const SecondColumn = () => {
                 <div>
                     <h4>Built By Traders For Traders.
                         Your Trading Ideas, Our Risk.</h4>
-                    <summary>
+                    <summary >
                         Funding Pips believes that traders go through three main levels in their careers,
                         Student - Practitioner - Master, with FP's in house-built two phases evaluation (Student - Practitioner) and funded (Master), which's built to find trading talents while helping them get
                         through their funding problems, by offering them the possibility to trade up $300.000.
