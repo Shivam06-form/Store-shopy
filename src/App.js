@@ -22,7 +22,7 @@ function App() {
   const [openChat, setOpenChat] = useState(false);
 
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative" ,width:"100%"}}>
       <Header showHeader={showHeader} />
       <FirstColumn setShowHeader={setShowHeader} />
       <SecondColumn />
