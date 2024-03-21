@@ -43,9 +43,12 @@
     list-style: none;
     width: 95%;
     font-weight: 400;
+    color: rgba(128, 128, 128, 0.689);
 }
 
 /* //////////////////////////////////////////////// */
+
+
 
 @media (max-width: 960px) {
 
