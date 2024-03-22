@@ -22,7 +22,7 @@ const SettingsModal = ({ setOpenSettings, openSettings }) => {
         <div>
             {<Overlay  >
                 <div className='setting'>
-                    <CloseButton style={{ display: "block", marginTop: "5%" }}
+                    <CloseButton style={{ display: "block", marginTop: "5%", backgroundColor: "red" }}
                         onClick={() => {
                             setOpenSettings(false)
                         }}
@@ -51,14 +51,16 @@ const SettingsModal = ({ setOpenSettings, openSettings }) => {
                                         }}
                                     > <IoIosArrowDown className='icon' />{name.name}</b>}
                                     <Form>
-                                        <Form.Check // prettier-ignore
+                                        <Form.Check
+                                            aria-checked="mixed"
+                                            // prettier-ignore
                                             type="switch"
                                             id="custom-switch"
                                         />
                                     </Form>
 
                                 </li>
-                                {filter[0] && <h6 style={{ backgroundColor: "gold" }}>
+                                {filter[0] && <h6>
                                     These cookies are used to provide you with a
                                     more personalized experience on our website and to
                                     remember choices you make when you use our website. For example,

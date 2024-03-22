@@ -58,7 +58,6 @@ const SeventhColumn = () => {
                 </div>
 
                 <div className='list-container'>
-
                     <div className='list-item'>
                         <ul>
                             <li className='list-title'>LEGAL</li>
