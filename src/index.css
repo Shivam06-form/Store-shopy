@@ -125,12 +125,16 @@ footer {
     width: 40px;
     height: 40px;
   }
-
 }
 
 @media (max-width: 1000px) {
   .theme {
     width: 8%;
+  }
+
+  .icon-overlay {
+    height: 50px;
+    width: 50px;
   }
 
 }

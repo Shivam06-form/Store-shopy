@@ -15,7 +15,7 @@ const SettingsModal = ({ setOpenSettings, openSettings }) => {
         { id: 3, name: "Tracking cookies" },
         { id: 4, name: "Targeting & Advertising cookies" },
         { id: 5, name: "Read more information about this" },
-    ]
+    ] 
 
 
     return (
