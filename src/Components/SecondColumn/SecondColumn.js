@@ -10,7 +10,7 @@ const SecondColumn = () => {
     return (
         <div className='second'>
             <div className='image-container'>
-                <Image src={bloomberg} color={'grey'} />
+                <Image src={bloomberg} color={'grey'} style={{mixBlendMode:"difference"}} />
                 <Image src={insider} />
                 <Image src={yahoo_finance} />
             </div>

@@ -7,7 +7,6 @@
 /* ///////////////images//////////// */
 .image-container {
     display: flex;
-    mix-blend-mode: difference;
     justify-content: space-between;
     width: 85%;
     margin: 0 auto;
@@ -17,6 +16,7 @@
     object-fit: contain;
     opacity: 1;
     width: 15rem;
+    mix-blend-mode: hard-light;
 }
 
 /* ////////////////////////////////////////// */

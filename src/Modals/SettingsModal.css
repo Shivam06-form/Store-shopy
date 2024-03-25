@@ -44,6 +44,14 @@
     justify-content: space-between;
 }
 
+.close-button {
+    display: block;
+    margin-Top: 5%;
+    background-color: red;
+    width: 100%;
+    border-radius: 100%;
+}
+
 .setting-list form {
     margin: auto;
 }

@@ -1,3 +1,8 @@
+#root {
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+
 .black-button {
   background-color: rgba(0, 0, 0, 0.719);
   color: whitesmoke;
@@ -107,6 +112,10 @@ footer {
 
 
 @media (max-width: 767px) {
+  #root {
+    width: min-content;
+  }
+
   .blue-button {
     width: 95%;
     align-items: center;

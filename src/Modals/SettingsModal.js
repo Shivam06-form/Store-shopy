@@ -22,7 +22,11 @@ const SettingsModal = ({ setOpenSettings, openSettings }) => {
         <div>
             {<Overlay  >
                 <div className='setting'>
-                    <CloseButton style={{ display: "block", marginTop: "5%", backgroundColor: "red" }}
+                    <CloseButton className='close-button'
+                        style={{
+                            backgroundColor: 'red',
+                            padding: '2%', borderRadius: "10px"
+                        }}
                         onClick={() => {
                             setOpenSettings(false)
                         }}
