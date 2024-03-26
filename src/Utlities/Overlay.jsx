@@ -1,20 +1,28 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom';
 import './Overlay.css'
 
-const Overlay = ({ onClick, style, children }) => {
-    const overlay = (document.getElementById('id'));
+const Overlay = ({ onClick, style, children, className }) => {
+    const overlay = document.getElementById('id');
 
-    return ReactDOM.createPortal(
-        <div
-            className="overlay"
-            // onMouseEnter={onMouseEnter}
-            onClick={onClick}
-            style={style}
-        >{children}</div>,
-        overlay
-    );
-
+    return (
+        <Fragment>
+            {ReactDOM.createPortal(
+                <div
+                    className={`overlay`}
+                    // onMouseEnter={onMouseEnter}
+                    onClick={onClick}
+                    style={style}
+                ></div>,
+                overlay
+            )}
+            {ReactDOM.createPortal(
+                <div className={`MODAL ${className}`}>
+                    <div className="content">{children}</div>
+                </div>,
+                overlay
+            )}
+        </Fragment>)
 }
 
 export default Overlay

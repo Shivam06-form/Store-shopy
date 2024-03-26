@@ -1,7 +1,23 @@
+/* ///////////// Modal Settings///////////////// */
+
+
+.settings-modal {
+    width: 50%;
+    position: fixed;
+    z-index: 100;
+    right: 25%;
+    left: 25%;
+    top:25%
+}
+
+
+/* /////////////////////////////////////////// */
+
+
 .setting {
     background-color: rgba(255, 255, 255, 0.973);
     text-align: center;
-    width: 55%;
+    width: 100%;
     height: 22rem;
     margin: auto;
     z-index: 100;
@@ -57,8 +73,15 @@
 }
 
 @media (max-width: 800px) {
-    .setting {
-        width: 98%;
+    .settings-modal {
+        width: 100%;
+        left: 0;
+        right: 0;
+
+    }
+    .setting{
+        height: 50rem;
+
     }
 
 }

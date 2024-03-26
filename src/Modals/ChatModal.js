@@ -6,10 +6,12 @@ import { FaRegWindowMinimize } from "react-icons/fa";
 
 const ChatModal = ({ setOpenChat, setShowHeader }) => {
     return (
-        <Overlay style={{ background: "transparent" }} onClick={() => {
-            setOpenChat(false)
-            setShowHeader(true)
-        }}>
+        <Overlay
+            className="chat-modal"
+            style={{ background: "transparent" }} onClick={() => {
+                setOpenChat(false)
+                // setShowHeader(true)
+            }}>
             <div className='chat'>
                 <div className='chat-content'>
                     <Card.Title style={{ width: "45%" }}>Chat Box</Card.Title>

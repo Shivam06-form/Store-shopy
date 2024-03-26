@@ -15,12 +15,17 @@ const SettingsModal = ({ setOpenSettings, openSettings }) => {
         { id: 3, name: "Tracking cookies" },
         { id: 4, name: "Targeting & Advertising cookies" },
         { id: 5, name: "Read more information about this" },
-    ] 
+    ]
 
 
     return (
         <div>
-            {<Overlay  >
+            {<Overlay
+                className="settings-modal"
+                // style={{ background:"red"}}
+                onClick={() => {
+                    setOpenSettings(false)
+                }}>
                 <div className='setting'>
                     <CloseButton className='close-button'
                         style={{
