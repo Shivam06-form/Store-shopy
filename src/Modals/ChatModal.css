@@ -48,9 +48,11 @@
 @media (max-width: 768px) {
     .chat-modal {
         width: 100%;
+        bottom: 0;
+        right: 0;
     }
 
     .chat {
-        height: 60rem;
+        height: 50rem;
     }
 }

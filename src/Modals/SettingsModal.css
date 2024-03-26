@@ -4,7 +4,7 @@
 .settings-modal {
     width: 50%;
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     right: 25%;
     left: 25%;
     top:25%
@@ -77,10 +77,11 @@
         width: 100%;
         left: 0;
         right: 0;
+        /* top:0 */
 
     }
     .setting{
-        height: 50rem;
+        height: 40rem;
 
     }
 

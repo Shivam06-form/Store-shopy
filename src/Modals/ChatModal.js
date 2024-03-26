@@ -10,7 +10,7 @@ const ChatModal = ({ setOpenChat, setShowHeader }) => {
             className="chat-modal"
             style={{ background: "transparent" }} onClick={() => {
                 setOpenChat(false)
-                // setShowHeader(true)
+                setShowHeader(true)
             }}>
             <div className='chat'>
                 <div className='chat-content'>
